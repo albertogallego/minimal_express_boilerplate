@@ -1,0 +1,19 @@
+{
+  "name": "minimal_express",
+  "version": "0.0.1",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon app.js",
+    "staging": "NODE_ENV=staging nodemon app.js"
+  }
+}
